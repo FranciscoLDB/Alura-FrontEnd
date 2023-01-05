@@ -1,0 +1,12 @@
+<h1>form works!</h1>
+<hr>
+<form (ngSubmit)="enviar()">
+  <label for="nome">Nome</label>
+  <input type="text" name="nome" id="nome" [(ngModel)]="nome" placeholder="Digite seu nome">
+  <br>
+  <label for="idade">Idade</label>
+  <input type="number" name="idade" id="idade" [(ngModel)]="idade" placeholder="Idade">
+  <br>
+  <button type="submit">Enviar</button>
+</form>
+<hr>
